@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "likedBooks.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

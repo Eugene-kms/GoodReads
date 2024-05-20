@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		4482B1052BFA5D3400FF84DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1042BFA5D3400FF84DE /* AppDelegate.swift */; };
 		4482B1072BFA5D3400FF84DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1062BFA5D3400FF84DE /* SceneDelegate.swift */; };
-		4482B1092BFA5D3400FF84DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1082BFA5D3400FF84DE /* ViewController.swift */; };
+		4482B1092BFA5D3400FF84DE /* LikedBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1082BFA5D3400FF84DE /* LikedBooksViewController.swift */; };
 		4482B10C2BFA5D3400FF84DE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4482B10B2BFA5D3400FF84DE /* Base */; };
 		4482B10E2BFA5D3700FF84DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4482B10D2BFA5D3700FF84DE /* Assets.xcassets */; };
 		4482B1112BFA5D3700FF84DE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4482B1102BFA5D3700FF84DE /* Base */; };
+		4482B11A2BFA76BD00FF84DE /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1192BFA76BD00FF84DE /* UIColor+Hex.swift */; };
+		4482B1202BFA7C2E00FF84DE /* HeaderLikedBooksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B11E2BFA7C2E00FF84DE /* HeaderLikedBooksCell.swift */; };
+		4482B1212BFA7C2E00FF84DE /* HeaderLikedBooksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4482B11F2BFA7C2E00FF84DE /* HeaderLikedBooksCell.xib */; };
+		4482B1242BFA7C5C00FF84DE /* ListLikedBooksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1222BFA7C5C00FF84DE /* ListLikedBooksCell.swift */; };
+		4482B1252BFA7C5C00FF84DE /* ListLikedBooksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4482B1232BFA7C5C00FF84DE /* ListLikedBooksCell.xib */; };
+		4482B1282BFB69DC00FF84DE /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1272BFB69DC00FF84DE /* BookData.swift */; };
+		4482B12B2BFBCE6100FF84DE /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B12A2BFBCE6100FF84DE /* BookDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4482B1012BFA5D3400FF84DE /* GoodReads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodReads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4482B1042BFA5D3400FF84DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4482B1062BFA5D3400FF84DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4482B1082BFA5D3400FF84DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4482B1082BFA5D3400FF84DE /* LikedBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedBooksViewController.swift; sourceTree = "<group>"; };
 		4482B10B2BFA5D3400FF84DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4482B10D2BFA5D3700FF84DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4482B1102BFA5D3700FF84DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4482B1122BFA5D3700FF84DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4482B1192BFA76BD00FF84DE /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		4482B11E2BFA7C2E00FF84DE /* HeaderLikedBooksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLikedBooksCell.swift; sourceTree = "<group>"; };
+		4482B11F2BFA7C2E00FF84DE /* HeaderLikedBooksCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderLikedBooksCell.xib; sourceTree = "<group>"; };
+		4482B1222BFA7C5C00FF84DE /* ListLikedBooksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLikedBooksCell.swift; sourceTree = "<group>"; };
+		4482B1232BFA7C5C00FF84DE /* ListLikedBooksCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListLikedBooksCell.xib; sourceTree = "<group>"; };
+		4482B1272BFB69DC00FF84DE /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
+		4482B12A2BFBCE6100FF84DE /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,70 @@
 		4482B1032BFA5D3400FF84DE /* GoodReads */ = {
 			isa = PBXGroup;
 			children = (
+				4482B1292BFBC95200FF84DE /* BookDetailViewController */,
+				4482B1262BFB69C700FF84DE /* Model */,
+				4482B1182BFA76AB00FF84DE /* Util */,
+				4482B11B2BFA7AD400FF84DE /* LikedBooksViewController */,
 				4482B1042BFA5D3400FF84DE /* AppDelegate.swift */,
 				4482B1062BFA5D3400FF84DE /* SceneDelegate.swift */,
-				4482B1082BFA5D3400FF84DE /* ViewController.swift */,
 				4482B10A2BFA5D3400FF84DE /* Main.storyboard */,
 				4482B10D2BFA5D3700FF84DE /* Assets.xcassets */,
 				4482B10F2BFA5D3700FF84DE /* LaunchScreen.storyboard */,
 				4482B1122BFA5D3700FF84DE /* Info.plist */,
 			);
 			path = GoodReads;
+			sourceTree = "<group>";
+		};
+		4482B1182BFA76AB00FF84DE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4482B1192BFA76BD00FF84DE /* UIColor+Hex.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4482B11B2BFA7AD400FF84DE /* LikedBooksViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4482B11C2BFA7B5300FF84DE /* HeaderLikedBooksCell */,
+				4482B11D2BFA7B7900FF84DE /* ListLikedBooksCell */,
+				4482B1082BFA5D3400FF84DE /* LikedBooksViewController.swift */,
+			);
+			path = LikedBooksViewController;
+			sourceTree = "<group>";
+		};
+		4482B11C2BFA7B5300FF84DE /* HeaderLikedBooksCell */ = {
+			isa = PBXGroup;
+			children = (
+				4482B11E2BFA7C2E00FF84DE /* HeaderLikedBooksCell.swift */,
+				4482B11F2BFA7C2E00FF84DE /* HeaderLikedBooksCell.xib */,
+			);
+			path = HeaderLikedBooksCell;
+			sourceTree = "<group>";
+		};
+		4482B11D2BFA7B7900FF84DE /* ListLikedBooksCell */ = {
+			isa = PBXGroup;
+			children = (
+				4482B1222BFA7C5C00FF84DE /* ListLikedBooksCell.swift */,
+				4482B1232BFA7C5C00FF84DE /* ListLikedBooksCell.xib */,
+			);
+			path = ListLikedBooksCell;
+			sourceTree = "<group>";
+		};
+		4482B1262BFB69C700FF84DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4482B1272BFB69DC00FF84DE /* BookData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4482B1292BFBC95200FF84DE /* BookDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4482B12A2BFBCE6100FF84DE /* BookDetailViewController.swift */,
+			);
+			path = BookDetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4482B10E2BFA5D3700FF84DE /* Assets.xcassets in Resources */,
+				4482B1212BFA7C2E00FF84DE /* HeaderLikedBooksCell.xib in Resources */,
 				4482B1112BFA5D3700FF84DE /* Base in Resources */,
+				4482B1252BFA7C5C00FF84DE /* ListLikedBooksCell.xib in Resources */,
 				4482B10C2BFA5D3400FF84DE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +209,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4482B1092BFA5D3400FF84DE /* ViewController.swift in Sources */,
+				4482B1202BFA7C2E00FF84DE /* HeaderLikedBooksCell.swift in Sources */,
+				4482B1282BFB69DC00FF84DE /* BookData.swift in Sources */,
+				4482B1092BFA5D3400FF84DE /* LikedBooksViewController.swift in Sources */,
+				4482B1242BFA7C5C00FF84DE /* ListLikedBooksCell.swift in Sources */,
+				4482B11A2BFA76BD00FF84DE /* UIColor+Hex.swift in Sources */,
 				4482B1052BFA5D3400FF84DE /* AppDelegate.swift in Sources */,
+				4482B12B2BFBCE6100FF84DE /* BookDetailViewController.swift in Sources */,
 				4482B1072BFA5D3400FF84DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +382,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Eugene.GoodReads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,6 +412,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Eugene.GoodReads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
