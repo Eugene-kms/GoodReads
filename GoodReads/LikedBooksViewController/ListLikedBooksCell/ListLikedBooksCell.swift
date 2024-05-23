@@ -11,11 +11,13 @@ class ListLikedBooksCell: UITableViewCell {
         selectionStyle = .none
     }
     
-    func configure(wirth book: BookData) {
-        coverBookImage.image = book.coverImage
+    func configure(with book: BookData) {
+        coverBookImage.image = book.iconCoverImage
         titleLable.text = book.title
         authorsLable.text = book.authors
     }
+    
+    
     
     @IBAction func optionButtonTapped(_ sender: Any) {
     }

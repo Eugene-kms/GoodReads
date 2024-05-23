@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445C32AA2BFE4AA3007D6946 /* CommentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C32A92BFE4AA3007D6946 /* CommentData.swift */; };
 		4482B1052BFA5D3400FF84DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1042BFA5D3400FF84DE /* AppDelegate.swift */; };
 		4482B1072BFA5D3400FF84DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1062BFA5D3400FF84DE /* SceneDelegate.swift */; };
 		4482B1092BFA5D3400FF84DE /* LikedBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1082BFA5D3400FF84DE /* LikedBooksViewController.swift */; };
@@ -20,9 +21,13 @@
 		4482B1252BFA7C5C00FF84DE /* ListLikedBooksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4482B1232BFA7C5C00FF84DE /* ListLikedBooksCell.xib */; };
 		4482B1282BFB69DC00FF84DE /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B1272BFB69DC00FF84DE /* BookData.swift */; };
 		4482B12B2BFBCE6100FF84DE /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B12A2BFBCE6100FF84DE /* BookDetailViewController.swift */; };
+		4482B12E2BFD3B9200FF84DE /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B12D2BFD3B9200FF84DE /* CommentsViewController.swift */; };
+		4482B1312BFD3BD300FF84DE /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482B12F2BFD3BD300FF84DE /* CommentCell.swift */; };
+		4482B1322BFD3BD300FF84DE /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4482B1302BFD3BD300FF84DE /* CommentCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		445C32A92BFE4AA3007D6946 /* CommentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentData.swift; sourceTree = "<group>"; };
 		4482B1012BFA5D3400FF84DE /* GoodReads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodReads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4482B1042BFA5D3400FF84DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4482B1062BFA5D3400FF84DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		4482B1232BFA7C5C00FF84DE /* ListLikedBooksCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListLikedBooksCell.xib; sourceTree = "<group>"; };
 		4482B1272BFB69DC00FF84DE /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 		4482B12A2BFBCE6100FF84DE /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		4482B12D2BFD3B9200FF84DE /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		4482B12F2BFD3BD300FF84DE /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		4482B1302BFD3BD300FF84DE /* CommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +78,10 @@
 		4482B1032BFA5D3400FF84DE /* GoodReads */ = {
 			isa = PBXGroup;
 			children = (
-				4482B1292BFBC95200FF84DE /* BookDetailViewController */,
 				4482B1262BFB69C700FF84DE /* Model */,
 				4482B1182BFA76AB00FF84DE /* Util */,
+				4482B12C2BFD392700FF84DE /* CommentsViewController */,
+				4482B1292BFBC95200FF84DE /* BookDetailViewController */,
 				4482B11B2BFA7AD400FF84DE /* LikedBooksViewController */,
 				4482B1042BFA5D3400FF84DE /* AppDelegate.swift */,
 				4482B1062BFA5D3400FF84DE /* SceneDelegate.swift */,
@@ -124,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				4482B1272BFB69DC00FF84DE /* BookData.swift */,
+				445C32A92BFE4AA3007D6946 /* CommentData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,6 +144,24 @@
 				4482B12A2BFBCE6100FF84DE /* BookDetailViewController.swift */,
 			);
 			path = BookDetailViewController;
+			sourceTree = "<group>";
+		};
+		4482B12C2BFD392700FF84DE /* CommentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4482B1332BFD3BEA00FF84DE /* CommentCell */,
+				4482B12D2BFD3B9200FF84DE /* CommentsViewController.swift */,
+			);
+			path = CommentsViewController;
+			sourceTree = "<group>";
+		};
+		4482B1332BFD3BEA00FF84DE /* CommentCell */ = {
+			isa = PBXGroup;
+			children = (
+				4482B12F2BFD3BD300FF84DE /* CommentCell.swift */,
+				4482B1302BFD3BD300FF84DE /* CommentCell.xib */,
+			);
+			path = CommentCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +225,7 @@
 				4482B10E2BFA5D3700FF84DE /* Assets.xcassets in Resources */,
 				4482B1212BFA7C2E00FF84DE /* HeaderLikedBooksCell.xib in Resources */,
 				4482B1112BFA5D3700FF84DE /* Base in Resources */,
+				4482B1322BFD3BD300FF84DE /* CommentCell.xib in Resources */,
 				4482B1252BFA7C5C00FF84DE /* ListLikedBooksCell.xib in Resources */,
 				4482B10C2BFA5D3400FF84DE /* Base in Resources */,
 			);
@@ -212,11 +241,14 @@
 				4482B1202BFA7C2E00FF84DE /* HeaderLikedBooksCell.swift in Sources */,
 				4482B1282BFB69DC00FF84DE /* BookData.swift in Sources */,
 				4482B1092BFA5D3400FF84DE /* LikedBooksViewController.swift in Sources */,
+				445C32AA2BFE4AA3007D6946 /* CommentData.swift in Sources */,
 				4482B1242BFA7C5C00FF84DE /* ListLikedBooksCell.swift in Sources */,
 				4482B11A2BFA76BD00FF84DE /* UIColor+Hex.swift in Sources */,
+				4482B1312BFD3BD300FF84DE /* CommentCell.swift in Sources */,
 				4482B1052BFA5D3400FF84DE /* AppDelegate.swift in Sources */,
 				4482B12B2BFBCE6100FF84DE /* BookDetailViewController.swift in Sources */,
 				4482B1072BFA5D3400FF84DE /* SceneDelegate.swift in Sources */,
+				4482B12E2BFD3B9200FF84DE /* CommentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
